@@ -17,7 +17,6 @@
         {
             margin-bottom: 4rem;
             background-color: black;
-            /* border-bottom: 5px solid #5a5a5a; */
         }
 
         .carousel-item > img
@@ -35,6 +34,12 @@
             margin: 3rem 0;
         }
 
+        .content-section
+        {
+            margin-left: auto;
+            margin-right: auto; 
+        } 
+
         .content-text
         {
             margin-top: auto;
@@ -45,6 +50,15 @@
         {
             font-weight: 400;
             line-height: 1;
+        }
+
+        .content-image
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
         }
     </style>
 
@@ -86,23 +100,23 @@
         </div>
 
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 content-text">
+            <div class="row content-section">
+                <div class="col-md-9 content-text">
                     <h2 class="content-heading">About Me. <span class="text-muted">Who's Kristian?</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
-                <div class="col-md-4">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg content-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                <div class="col-md-3">
+                    <img src="./images/Square/Kristian.JPG" class="content-image border border-secondary">
                 </div>
             </div>
 
             <hr class="content-divider">
 
-            <div class="row">
-                <div class="col-md-4">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg content-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            <div class="row content-section">
+                <div class="col-md-3">
+                    <img src="./images/Square/Projects.jpg" class="content-image border border-secondary">
                 </div>
-                <div class="col-md-8 content-text">
+                <div class="col-md-9 content-text">
                     <h2 class="content-heading">School Projects. <span class="text-muted">Processors, systems, and more!</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
@@ -110,13 +124,13 @@
 
             <hr class="content-divider">
 
-            <div class="row">
-                <div class="col-md-8 content-text">
+            <div class="row content-section">
+                <div class="col-md-9 content-text">
                     <h2 class="content-heading">Photography. <span class="text-muted">Videography.</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
-                <div class="col-md-4">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg content-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                <div class="col-md-3">
+                    <img src="./images/Square/Photography.jpg" class="content-image border border-secondary">
                 </div>
             </div>
 
