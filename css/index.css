@@ -3,6 +3,17 @@ body
     color: #5a5a5a;
 }
 
+.navbar .navbar-brand a
+{
+    padding: 0;
+    color: black;
+}
+
+.navbar .navbar-brand .dropdown-item
+{
+    padding: 4px 24px;
+}
+
 .social
 {
     font-size: 18px;
