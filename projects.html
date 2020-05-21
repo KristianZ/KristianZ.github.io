@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Senior Design. <span class="text-muted">Wearable Tech</span></h2>
-                    <p class="lead">I completed my senior capstone as part of a Multidisciplinary Capstone class, which was with students from different majors. Three others and I developed a system that records running mechanics so that the data can be used to predict running-related injuries. We began by researching the minimal factors required to detect injuries. We even started IRB paperwork to conduct our own research. We moved onto designing a system consisting of a wearable that communicated with a smartphone. The wearable contained motion sensors and an impact-sensing insole. I was responsible for developing the smartphone application and hardware circuitry. Due to the COVID-19 pandemic, project components were separated and never officially combined and tested.</p>
+                    <p class="lead">I completed my senior project as part of a Multidisciplinary Capstone class, which was with students from different majors. Three others and I created a system that recorded running mechanics so that the data can be used to predict running-related injuries. We began by researching the minimal factors required to detect injuries, which included IRB paperwork to conduct our own research. Understanding that research was outside the scope of the class, we moved to design a system consisting of a wearable that communicated with a smartphone. I was responsible for designing and developing the smartphone application and wearable circuitry. The application was created using React Native. It communicated over BLE to the wearable's microcontroller. The microcontroller commmunicated with motion and force sensors. Due to the COVID-19 pandemic, project components were separated and never officially combined and tested.</p>
                 </div>
             </div>
 
@@ -110,7 +110,7 @@
             <div id="imaging" class="row content-section">
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Embedded Machine Learning. <span class="text-muted">Blurring Image Background.</span></h2>
-                    <p class="lead"></p>
+                    <p class="lead">For my final project in Embedded Machine Learning, I designed and implemented a system that blurred the background of individuals in a picture. The direction of the blur was based on the direction of the person's head. The program first extracts potential head regions using thresholding. Then, it uses PCA to classify the potential regions as a head. These classified head regions are the foreground. Thresholding is used once more to obtain the centroid of the foreground and the head itself. From that, a blur direction is determined. MatLab was used to obtain training coefficients while an NVidia Jetson Nano running python operated the final program. The training set was comprosied of forty images under different color lighting and different head angles.</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./images/Projects/Face.jpeg" class="content-image border border-secondary">
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Computer Vision. <span class="text-muted">Key-press detector.</span></h2>
-                    <p class="lead"></p>
+                    <p class="lead">For my final project in Computer Vision, a partner and I designed and implemented a MatLab program that identifies a key press from an image. Using thresholding, the finger is extracted from the image. The hand's centroid and orientation are used to determine the point at the tip of the finger. Then, the keyboard is extracted using thresholding, morphologies, and a convex hull. Using points at the edge of the keyboard, an affine transformation is applied to the image and finger point. Finally, the ratio of the location of the transformed point to that of the keyboard is compared to a pre-defined grid to obtain the key being pressed.</p>
                 </div>
             </div>
 
@@ -133,8 +133,8 @@
 
             <div class="row content-section">
                 <div class="col-md-9 content-text">
-                    <h2 class="content-heading">Image Recognition. <span class="text-muted">Target Identifier.</span></h2>
-                    <p class="lead"></p>
+                    <h2 class="content-heading">Image Recognition. <span class="text-muted">FRC Target Identifier.</span></h2>
+                    <p class="lead">For my final project in Image Recognition, three others and I designed and implemented a MatLab program that identifies the angle and distance to a target. Using an underexposed image, thresholding was applied to extract potential target regions. Small images were then created from large, continuous pixel regions. The small images were passed through a Hausdorff Template matching algorithm to determine whether they were indeed a target. If the small image was a target, then, the distance from the centroid to the edges is used to determine the angle while the total number of pixels is compared to a curve fit to determine the distance. The team achieved a 97% accuracy among a testing set of 200 images.</p>
                 </div>
                 <div class="col-md-3">
                     <img src="./images/Projects/Target.png" class="content-image border border-secondary">
@@ -145,84 +145,72 @@
 
             <div class="row content-section">
                 <div class="col-md-3">
-                    <img src="./images/Projects/FPGA.png" class="content-image border border-secondary">
+                    <img src="./images/Projects/Processor.png" class="content-image border border-secondary">
                 </div>
-                <div class="col-md-9 content-text">
-                    <h2 class="content-heading">Research Report.<span class="text-muted">Using FPGAs for Deep Learning</span></h2>
-                    <p class="lead"></p>
-                </div>
-            </div>
-
-            <hr class="content-divider">
-
-            <div class="row content-section">
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Processor. <span class="text-muted">16-bit, multicycle, stack, and accumulator!</span></h2>
                     <p class="lead">For our final project in Computer Architecture, three teammates and I designed and implemented a 16-bit, multicycle, stack and accumulator processor. To design the processor we developed a detailed register transfer language, component specifications, and test case plan. While most of the 24 instructions operated like a standard accumulator, the processor could store values to a stack. The processor was programmed using Verilog and Xilinx and implemented on an FPGA. As a wholistic test, it was able to calculate the GCD of 5040 in 3.37ms averaging 4.12 CPI at a maximum frequency of 114 MHz.</p>
                 </div>
-                <div class="col-md-3">
-                    <img src="./images/Projects/Processor.png" class="content-image border border-secondary">
-                </div>
             </div>
 
             <hr class="content-divider">
 
             <div class="row content-section">
-                <div class="col-md-3">
-                    <img src="./images/Home/Projects.jpg" class="content-image border border-secondary">
-                </div>
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Magic Music Player. <span class="text-muted">Write, hear, and display music!</span></h2>
                     <p class="lead">A partner and I designed and created a music player controllable from internet devices. While my partner conducted most of the hardware component, I led the software components. Our front-end website allowed users to submit music notes, octaves, and beats. A database saved the inputted data until retrieval from a computer. A computer would then send the data over the Bluetooth Serial Communicator to the EUSART component on the hardware. Finally, a PIC would play the music from a speaker, display it on an LCD, and blink an LED to the music. Buttons allow the user to change the speed of their song.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/Home/Projects.jpg" class="content-image border border-secondary">
                 </div>
             </div>
 
             <hr id="other" class="content-divider">
 
             <div class="row content-section">
+                <div class="col-md-3">
+                    <img src="./images/Projects/Rosie.png" class="content-image border border-secondary">
+                </div>
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Senior Design. <span class="text-muted">Plush-Toy Elephant</span></h2>
                     <p class="lead">Prior to our year-long capstone project, groups of four students were tasked with developing a toy in two weeks. Our plush elephant toy was designed for autistic children over the age of four. It interfaced with a switch using a 3.5mm audio jack. When a child activates a switch, the elephant makes a noise and moves its trunk. As a Computer Engineer, I was tasked with the electrical components. I programmed an Arduino to interact with a speaker, motor, and switch. The Arduino stored the sound data in the array, while an L239D IC allowed the motor to move forward and backwards. A battery connected to a SPST switch controlled power.</p>
                 </div>
-                <div class="col-md-3">
-                    <img src="./images/Projects/Rosie.png" class="content-image border border-secondary">
-                </div>
             </div>
 
             <hr class="content-divider">
 
             <div class="row content-section">
-                <div class="col-md-3">
-                    <img src="./images/Projects/Printer.png" class="content-image border border-secondary">
-                </div>
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Junior Design. <span class="text-muted">3D printing error detection.</span></h2>
                     <p class="lead">While my junior design class did not require any physical prototypes, my two group members and I spent eight weeks designing a system to detect 3D printing errors for the Indiana School of the Blind. We focused on outlining stakeholders needs and requirements into obtainable metrics and translating these metrics to a design. We extensively modelled and illustrated our design decisions through functional architectures, flowcharts, and subsystem schematics. Our goal was so that any engineer can eventually create our system.</p>
                 </div>
+                <div class="col-md-3">
+                    <img src="./images/Projects/Printer.png" class="content-image border border-secondary">
+                </div>
             </div>
 
             <hr class="content-divider">
 
             <div class="row content-section">
+                <div class="col-md-3">
+                    <img src="./images/Projects/Astronomy.jpg" class="content-image border border-secondary">
+                </div>
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Astronomy FITS Viewer. <span class="text-muted">High School astronomy.</span></h2>
                     <p class="lead">During my senior year in high school, I took an astronomy class that utilized FITS images. Despite existing tools, I chose to make a project to better layout the information stored in these images. To download images, my application connected to a SkyNet account. It then placed all the information of the images in a table. The table also included three filters on the file: the original data, preserving luminance, and a linear model. Having data side-by-side allowed for quicker and easier examination of collected data.</p>
                 </div>
-                <div class="col-md-3">
-                    <img src="./images/Projects/Astronomy.jpg" class="content-image border border-secondary">
-                </div>
             </div>
 
             <hr class="content-divider">
 
             <div class="row content-section">
-                <div class="col-md-3">
-                    <img src="./images/Projects/Renaissance.jpg" class="content-image border border-secondary">
-                </div>
                 <div class="col-md-9 content-text">
                     <h2 class="content-heading">Renaissance Quintent. <span class="text-muted">A website for my mom's quintent.</span></h2>
                     <p class="lead">Creating a website for my mom's quintent was one of my first independent project experiences. The process required that I teach myself web programming languages and libraries. Like this website, I used Bootstrap, HTML, CSS, and JavaScript. I also turned to PHP to pull data from JSON files, automatically minify files, and for routing pages.</p>
                     <a href="http://renaissancequintet.com">Visit RenaissanceQuintet.com</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/Projects/Renaissance.jpg" class="content-image border border-secondary">
                 </div>
             </div>
 
