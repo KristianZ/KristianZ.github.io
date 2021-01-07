@@ -22,8 +22,8 @@
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
 }
 
 .hovereffect:hover .overlay {
@@ -49,8 +49,8 @@
 	-webkit-transform: translateY(120px);
 	-ms-transform: translateY(120px);
 	transform: translateY(120px);
-	-webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
     /* Below is to prevent overlaying the border. */
     margin-left: 1px;
     margin-right: 1px;
@@ -77,7 +77,8 @@
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	font-weight: normal;
-	padding: 90px 120px;
+    padding: 90px 120px;
+    box-shadow: none;
 }
 
 .hovereffect:hover button.info {
@@ -86,7 +87,7 @@
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
     transform: scale(1);
-    box-shadow: none /* Necessary for removing button highlight. */
+    box-shadow: none; /* Necessary for removing button highlight. */
 }
 
 .hovereffect button.info:hover {
