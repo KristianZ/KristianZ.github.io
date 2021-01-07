@@ -18,10 +18,10 @@ var projects_json = {
         "content": "https://youtu.be/RlcZEa3OZt0"
     },
     "videos": {
-        "title": "Videos",
+        "title": "Silly Videos",
         "category": "film",
         "link-text": "Let's see them!",
-        "content": "<div class='row'><div class='col-md-6 embed-responsive embed-responsive-16by9'><video controls class='embed-responsive-item'><source src='./images/Videos/Food.mp4' type='video/mp4'></video></div><div class='col-md-6 embed-responsive embed-responsive-16by9'><video controls class='embed-responsive-item'><source src='./images/Videos/NewYear.mov' type='video/mp4'></video></div></div>"
+        "content": "<div class='embed-responsive embed-responsive-16by9'><video controls class='embed-responsive-item'><source src='./images/Videos/RoseGrad.mov' type='video/mp4'></video></div><div class='embed-responsive embed-responsive-16by9'><video controls class='embed-responsive-item'><source src='./images/Videos/Food.mp4' type='video/mp4'></video></div><div class='embed-responsive embed-responsive-16by9'><video controls class='embed-responsive-item'><source src='./images/Videos/NewYear.mov' type='video/mp4'></video></div>"
     },
     "iceland": {
         "title": "Iceland Photography",
