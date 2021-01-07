@@ -22,8 +22,8 @@
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .hovereffect:hover .overlay {
@@ -51,8 +51,9 @@
 	transform: translateY(120px);
 	-webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    border-left: 1px solid darkgray;
-    border-right: 1px solid darkgray;
+    /* Below is to prevent overlaying the border. */
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .hovereffect:hover h2 {
@@ -61,7 +62,7 @@
 	transform: translateY(70px);
 }
 
-.hovereffect a.info {
+.hovereffect button.info {
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -73,20 +74,21 @@
 	-webkit-transform: scale(0);
 	-ms-transform: scale(0);
 	transform: scale(0);
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	font-weight: normal;
 	padding: 90px 120px;
 }
 
-.hovereffect:hover a.info {
+.hovereffect:hover button.info {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
-	transform: scale(1);
+    transform: scale(1);
+    box-shadow: none /* Necessary for removing button highlight. */
 }
 
-.hovereffect a.info:hover {
+.hovereffect button.info:hover {
 	box-shadow: 0 0 5px #fff;
 }
