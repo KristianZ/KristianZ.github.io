@@ -46,9 +46,9 @@
 	font-size: 17px;
 	padding: 10px;
 	background: rgba(0, 0, 0, 0.85);
-	-webkit-transform: translateY(120px);
-	-ms-transform: translateY(120px);
-	transform: translateY(120px);
+	-webkit-transform: translateY(110px);
+	-ms-transform: translateY(110px);
+	transform: translateY(110px);
 	-webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     /* Below is to prevent overlaying the border. */
