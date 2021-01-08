@@ -26,10 +26,6 @@
 	transition: all 0.25s ease-in-out;
 }
 
-.hovereffect:hover .overlay {
-    background-color: rgba(135, 45, 150, 0.5);
-}
-
 .hovereffect img {
 	display: block;
     position: relative;

@@ -57,7 +57,7 @@ var projects_json = {
         "title": "Camera Background Blur",
         "category": "engineering",
         "link-text": "Learn More",
-        "content": "For my final project in Embedded Machine Learning, I designed and implemented a system that blurred the background of individuals in a picture. The direction of the blur was based on the direction of the person's head. The program first extracts potential head regions using thresholding. Then, it uses PCA to classify the potential regions as a head. These classified head regions are the foreground. Thresholding is used once more to obtain the centroid of the foreground and the head itself. From that, a blur direction is determined. MatLab was used to obtain training coefficients while an NVidia Jetson Nano running python operated the final program. The training set was comprosied of forty images under different color lighting and different head angles."
+        "content": "For my final project in Embedded Machine Learning, I designed and implemented a system that blurred the background of individuals in a picture. The direction of the blur was based on the direction of the person's head. The program first extracts potential head regions using thresholding. Then, it uses PCA to classify the potential regions as a head. These classified head regions are the foreground. Thresholding is used once more to obtain the centroid of the foreground and the head itself. From that, a blur direction is determined. MatLab was used to obtain training coefficients while an NVidia Jetson Nano running Python operated the final program. The training set was comprosied of forty images under different color lighting and different head angles."
     },
     "cvision": {
         "title": "Virtual Key-press Detector",
@@ -69,7 +69,7 @@ var projects_json = {
         "title": "FRC Target Identifier",
         "category": "engineering",
         "link-text": "Learn More",
-        "content": "For my final project in Image Recognition, three others and I designed and implemented a MatLab program that identifies the angle and distance to a target. Using an underexposed image, thresholding was applied to extract potential target regions. Small images were then created from large, continuous pixel regions. The small images were passed through a Hausdorff Template matching algorithm to determine whether they were indeed a target. If the small image was a target, then, the distance from the centroid to the edges is used to determine the angle while the total number of pixels is compared to a curve fit to determine the distance. The team achieved a 97% accuracy among a testing set of 200 images."
+        "content": "For my final project in Image Recognition, three others and I designed and implemented a MatLab program that identifies the angle and distance to a target. Using an underexposed image, thresholding was applied to extract potential target regions. Small images were then created from large, continuous pixel regions. The small images were passed through a Hausdorff Template matching algorithm to determine whether they were indeed a target. If the small image was a target, then, the distance from the centroid to the edges was used to determine the angle while the total number of pixels was compared to a curve fit to determine the distance. The team achieved a 97% accuracy among 200 images."
     },
     "processor": {
         "title": "Processor - 16-bit, multicycle, stack, and accumulator!",
@@ -81,25 +81,25 @@ var projects_json = {
         "title": "Plush-Toy Elephant",
         "category": "engineering",
         "link-text": "Learn More",
-        "content": "Prior to our year-long capstone project, groups of four students were tasked with developing a toy in two weeks. Our plush elephant toy was designed for autistic children over the age of four. It interfaced with a switch using a 3.5mm audio jack. When a child activates a switch, the elephant makes a noise and moves its trunk. As a Computer Engineer, I was tasked with the electrical components. I programmed an Arduino to interact with a speaker, motor, and switch. The Arduino stored the sound data in the array, while an L239D IC allowed the motor to move forward and backwards. A battery connected to a SPST switch controlled power."
+        "content": "Prior to our year-long capstone project, groups of four students were tasked with developing a toy in two weeks. This proved difficult for everyone as many students were still taking a full course load. Our plush elephant toy was designed for autistic children over the age of four. It interfaced with a switch using a 3.5mm audio jack. When a child activates a switch, the elephant makes a noise and moves its trunk. As a Computer Engineer, I was tasked with the electrical components. I programmed an Arduino to interact with a speaker, motor, and switch. The Arduino stored the sound data in the array, while an L239D IC allowed the motor to move forward and backwards. A battery connected to a SPST switch controlled power."
     },
     "mmm": {
         "title": "Magic Music Player",
         "category": "engineering",
         "link-text": "Learn More",
-        "content": "My Embedded Devices class focused on programming a PIC using Assembly and C. For the final, a partner and I designed and created a music player controllable from internet devices. While my partner conducted most of the hardware component, I led the software components. Our front-end website allowed users to submit music notes, octaves, and beats. A database saved the inputted data until retrieval from a computer. A computer would then send the data over the Bluetooth Serial Communicator to the EUSART component on the hardware. Finally, a PIC would play the music from a speaker, display it on an LCD, and blink an LED to the music. Buttons allow the user to change the speed of their song."
+        "content": "My Embedded Devices class focused on programming a PIC using Assembly and C. For the final, a partner and I designed and created a music player controllable from internet devices. Our front-end website allowed users to submit music notes, octaves, and beats. A database saved the inputted data until retrieval from a computer. A computer would then send the data over the Bluetooth Serial Communicator to the EUSART component on the hardware. Finally, a PIC would process the command and play the music from a speaker, display it on an LCD, and blink an LED to the music. Buttons on the hardware allow the user to change the speed of their song."
     },
     "track": {
         "title": "Track and Field",
         "category": "extracurricular",
         "link-text": "Learn More",
-        "content": "I spend a lot of time practicing the sport of Track and Field. While I'm a sprinter and pole vaulter first, I've completed the heptathlon once, and I'm currently training for the decathlon. My Track and Field experiences has led me to appreciate its many physical feats and love the sport so much more.<p></p>I've never had an opportunity to share my track accomplishments, but I'm really proud of them and wish to share them somewhere. In high school, I was a member of our state-qualifying 4x200m and 4x100m relays. I was also a conference scorer in the pole vault, 55m dash, 4x100m, and 4x200m. In college, I was a conference champion in the 200m, 4x200m, and 4x400m. I was runner up in the 400m and 4x200m. Finally, I was a conference scorere in the pole vault (5 times), the 4x400m relay, and the 400m hurdles."
+        "content": "I spend a lot of time practicing the sport of Track and Field. While I'm a sprinter and pole vaulter first, I've completed the heptathlon once, and I'm currently training for the decathlon. My Track and Field experiences have led me to appreciate its many physical feats and love the sport so much more.I've never had an opportunity to share my track accomplishments, but I'm really proud of them and wish to share them somewhere.<p></p><strong>Rose-Hulman</strong> - Conference champion in the 200m, 4x200m, and 4x400m. Conference runner-up in the 400m and 4x200m. Conference scorer in the pole vault (5 times), the 4x400m relay, and the 400m hurdles.<p></p><strong>High School</strong> - State qualifier in the 4x200m and 4x100m relays. Conference scorer in the pole vault, 55m dash, 4x100m, and 4x200m."
     },
     "abroad": {
         "title": "Studying in Rome, Italy",
         "category": "extracurricular",
         "link-text": "Learn More",
-        "content": "One of the best and most adventerous 5 weeks of my life were in Italy. In the summer of 2018, I chose to take a sociology course and a podcasting and vidcasting course in Rome, Italy. Every week, my sociology course would explore neighborhoods of Rome and discuss their history, culture, and identity. My podcasting and vidcasting course would create one or two podcasts and vidcasts every week on how to live in Rome.<p></p>On weekends, my friends and I would have fun exploring the country. I visited the Vatican several times, travelled to Ostia, Venice, Florence, Cinque Terre, Naples, Pompei, Sorrento, and Capri. I even had the opportunity to see a Killers concert! I've never had a better opportunity to connect with new people and explore a historically and culturally rich country.<p></p><a href=' https://soundcloud.com/user-730028885/sets/the-when-in-rome-show-summer'>When in Rome Show Podcast</a><p></p><a href='https://www.youtube.com/watch?v=wutJ40P0o50'>Compiliation of video clips from Rome</a>"
+        "content": "One of the best and most adventerous 5 weeks of my life were in Italy. In the summer of 2018, I chose to take a sociology course and a podcasting and vidcasting course in Rome, Italy. Every week, my sociology course would explore neighborhoods of Rome and discuss their history, culture, and identity. My podcasting and vidcasting course would create one or two podcasts and vidcasts every week on how to live in Rome.<p></p>On weekends, my friends and I would have fun exploring the country. I visited the Vatican several times, travelled to Ostia, Venice, Florence, Cinque Terre, Naples, Pompei, Sorrento, and Capri. I even had the opportunity to see a Killers concert! I've never had a better opportunity to connect with new people and explore a historically and culturally rich country.<p></p><a href=' https://soundcloud.com/user-730028885/sets/the-when-in-rome-show-summer'>When in Rome Show Podcast</a><p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/wutJ40P0o50' allowfullscreen></iframe></div>"
     },
     "pso": {
         "title": "Polish Scouting Organization",
@@ -159,7 +159,7 @@ $.each(projects_json, function(key, value) {
 <div class="col-auto p-0">
     <div class="hovereffect">
         <img class="img-responsive" src="images/Home/Projects.jpg">
-        <div class="overlay">
+        <div class="overlay film">
             <h2>Hover effect 5</h2>
             <button class="info" data-toggle="modal" data-target="#modal1">
                 link here

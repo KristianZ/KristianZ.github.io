@@ -22,6 +22,10 @@
     color: black;
 }
 
+.key {
+    margin-top: 50px;
+}
+
 .key h2 {
 	color: #fff;
 	text-align: center;
@@ -52,7 +56,18 @@
     border-bottom: 5px solid rgb(70, 70, 70);
 }
 
-#projects {
-    margin-top: 10px;
-    margin-bottom: 20px;
+.hovereffect:hover .engineering {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.hovereffect:hover .photography {
+    background: rgba(70, 0, 0, 0.5);
+}
+
+.hovereffect:hover .film {
+    background: rgba(70, 0, 70, 0.5);
+}
+
+.hovereffect:hover .extracurricular {
+    background: rgba(70, 70, 70, 0.75);
 }
