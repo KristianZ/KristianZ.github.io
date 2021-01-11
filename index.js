@@ -11,11 +11,11 @@ var projects_json = {
         "link-text": "Watch Video",
         "content": "https://youtu.be/7ZwJYa21LyQ"
     },
-    "infinite": {
-        "title": "Infinite Loop",
+    "blueprints": {
+        "title": "Unreal Engine Blueprints",
         "category": "film",
-        "link-text": "Watch Video",
-        "content": "https://youtu.be/RlcZEa3OZt0"
+        "link-text": "Learn More",
+        "content": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/RlcZEa3OZt0?rel=0' allowfullscreen></iframe></div><p></p>Blueprints are an incredibly powerful feature of Unreal Engine 4, allowing one to program their desires in a virtual environment. As part of my Motion Capture and Virtual Production Development courses, students were asked to create Blueprint programs proving their comfort levels. As someone who comes from a program-heavy background, I felt comfortable tackling the challenges Blueprints introduced.<p></p>For my Motion Capture class, I created an infinite loop of a hallway. The hallway contained segments which, upon entering, triggered an animation made using blueprints.<p></p><a href='https://wp.nyu.edu/tandonschoolofengineering-kristianz/week-7-infinite-loops/'>Blog about Infinite Loop</a><p></p>For my Virtual Production Development course, students were asked to create real-time show controls. My project controls the scene lighting and activates random, chaotic motion of a cube.<p></p><a href='https://wp.nyu.edu/tandonschoolofengineering-kristianz/week-11-show-control-and-osc/'>Blog about Show Controls and OSC</a>"
     },
     "videos": {
         "title": "Silly Videos",
