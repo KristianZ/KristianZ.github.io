@@ -1,15 +1,21 @@
 var projects_json = {
-    "mocap": {
-        "title": "Motion Capture- Imagining Motion",
+    "esaul": {
+        "title": "Esaul - Teaser Trailer",
         "category": "film",
         "link-text": "Watch Video",
-        "content": "https://youtu.be/AUmVbxDES04"
+        "content": "https://youtu.be/EA1-RYAI55c"
     },
     "character": {
         "title": "Virtual Production - Character Introduction",
         "category": "film",
         "link-text": "Watch Video",
         "content": "https://youtu.be/7ZwJYa21LyQ"
+    },
+    "mocap": {
+        "title": "Motion Capture- Imagining Motion",
+        "category": "film",
+        "link-text": "Watch Video",
+        "content": "https://youtu.be/AUmVbxDES04"
     },
     "blueprints": {
         "title": "Unreal Engine Blueprints",
