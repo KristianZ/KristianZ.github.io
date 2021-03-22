@@ -1,4 +1,10 @@
 var projects_json = {
+    "bike": {
+        "title": "Wearable for Bikers",
+        "category": "engineering",
+        "link-text": "Learn More",
+        "content": "Unlike driving a car, the arm movements bikers use to signal turns are not always immediately clear. For my midterm in my Wearables course, I set out to make the turning signals of bikers more attention-grabbing. I created a prototype of a wearable that detects arm gestures as inputs and uses LEDs on the back as signal indicators. When the biker outstretches their (left) arm, it signals a turn in that direction. If the biker raises their arm at ninety degrees, it signals the turn in the opposite direction. Holding the position enables the blinkers while any other position disables it.<p></p>For gesture detection, I use an Arduino Nano 33 BLE that was mounted to an armband on the forearm. Conveniently, the Arduino has an 9-axis IMU sensor of which I used acceleration and gyroscope values to detect (a) whether the arm was up and (b) whether the arm was signaling a left or right turn. The armband also houses a battery . Wires running through the arm connect the LEDs, which are sewn onto the inside of the longsleeve shirt. This project certainly challenged my sketching, soldering, and sewing skills.<p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/OQslF1Oaszg?rel=0' allowfullscreen></iframe></div><p></p>"
+    },
     "esaul": {
         "title": "Esaul - Teaser Trailer",
         "category": "film",
@@ -34,6 +40,12 @@ var projects_json = {
         "category": "photography",
         "link-text": "Open Album",
         "content": "https://photos.app.goo.gl/ThkXJhgNs96CaWL7A"
+    },
+    "nyc": {
+        "title": "NYC Photography",
+        "category": "photography",
+        "link-text": "Open Album",
+        "content": "https://photos.app.goo.gl/n3omEEZnCMAYJLNW8"
     },
     "kentucky": {
         "title": "Kentucky Photography",
@@ -88,12 +100,6 @@ var projects_json = {
         "category": "engineering",
         "link-text": "Learn More",
         "content": "Prior to our year-long capstone project, groups of four students were tasked with developing a toy in two weeks. This proved difficult for everyone as many students were still taking a full course load. Our plush elephant toy was designed for autistic children over the age of four. It interfaced with a switch using a 3.5mm audio jack. When a child activates a switch, the elephant makes a noise and moves its trunk. As a Computer Engineer, I was tasked with the electrical components. I programmed an Arduino to interact with a speaker, motor, and switch. The Arduino stored the sound data in the array, while an L239D IC allowed the motor to move forward and backwards. A battery connected to a SPST switch controlled power."
-    },
-    "mmm": {
-        "title": "Magic Music Player",
-        "category": "engineering",
-        "link-text": "Learn More",
-        "content": "My Embedded Devices class focused on programming a PIC using Assembly and C. For the final, a partner and I designed and created a music player controllable from internet devices. Our front-end website allowed users to submit music notes, octaves, and beats. A database saved the inputted data until retrieval from a computer. A computer would then send the data over the Bluetooth Serial Communicator to the EUSART component on the hardware. Finally, a PIC would process the command and play the music from a speaker, display it on an LCD, and blink an LED to the music. Buttons on the hardware allow the user to change the speed of their song."
     },
     "track": {
         "title": "Track and Field",
