@@ -25,8 +25,14 @@
 .project {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     justify-content: left;
+    height: 310px;
+    margin-bottom: 10px;
+}
+
+.project:hover {
+    overflow-x: auto;
 }
 
 .key {
