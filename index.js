@@ -133,11 +133,10 @@ var projects_json = {
     }
 }
 
-var projects_row = $("#projects")
-
 $.each(projects_json, function(key, value) {
+    project = "#" + value['category'] + "-projects";
     if(value['content'].startsWith("http")) {
-        projects_row.append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
+        $(project).append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
             key +
             '.jpg"><div class="overlay ' +
             value['category'] +
@@ -151,7 +150,7 @@ $.each(projects_json, function(key, value) {
         )
     }
     else {
-        projects_row.append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
+        $(project).append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
             key +
             '.jpg"><div class="overlay ' +
             value['category'] +
@@ -176,7 +175,7 @@ $.each(projects_json, function(key, value) {
 
 <div class="col-auto p-0">
     <div class="hovereffect">
-        <img class="img-responsive" src="images/Home/Projects.jpg">
+        <img class="img-responsive" src="images/Thumbnails/abroad.jpg">
         <div class="overlay film">
             <h2>Hover effect 5</h2>
             <button class="info" data-toggle="modal" data-target="#modal1">
