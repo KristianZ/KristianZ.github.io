@@ -1,7 +1,7 @@
 var projects_json = {
     "bike": {
         "title": "Wearable for Bikers",
-        "category": "engineering",
+        "category": "design",
         "link-text": "Learn More",
         "content": "For version 2, <a href='https://wp.nyu.edu/tandonschoolofengineering-kristianz/week-15-project-2/'>click here</a>. For version 1, continue reading below.<p></p>Unlike driving a car, the arm movements bikers use to signal turns are not always immediately clear. For my midterm in my Wearables course, I set out to make the turning signals of bikers more attention-grabbing. I created a prototype of a wearable that detects arm gestures as inputs and uses LEDs on the back as signal indicators. When the biker outstretches their (left) arm, it signals a turn in that direction. If the biker raises their arm at ninety degrees, it signals the turn in the opposite direction. Holding the position enables the blinkers while any other position disables it.<p></p>For gesture detection, I use an Arduino Nano 33 BLE that was mounted to an armband on the forearm. Conveniently, the Arduino has an 9-axis IMU sensor of which I used acceleration and gyroscope values to detect (a) whether the arm was up and (b) whether the arm was signaling a left or right turn. The armband also houses a battery . Wires running through the arm connect the LEDs, which are sewn onto the inside of the longsleeve shirt. This project certainly challenged my sketching, soldering, and sewing skills.<p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/OQslF1Oaszg?rel=0' allowfullscreen></iframe></div><p></p>"
     },
@@ -28,12 +28,6 @@ var projects_json = {
         "category": "film",
         "link-text": "Watch Video",
         "content": "https://youtu.be/AUmVbxDES04"
-    },
-    "blueprints": {
-        "title": "Unreal Engine Blueprints",
-        "category": "film",
-        "link-text": "Learn More",
-        "content": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/RlcZEa3OZt0?rel=0' allowfullscreen></iframe></div><p></p>Blueprints are an incredibly powerful feature of Unreal Engine 4, allowing one to program their desires in a virtual environment. As part of my Motion Capture and Virtual Production Development courses, students were asked to create Blueprint programs proving their comfort levels. As someone who comes from a program-heavy background, I felt comfortable tackling the challenges Blueprints introduced.<p></p>For my Motion Capture class, I created an infinite loop of a hallway. The hallway contained segments which, upon entering, triggered an animation made using blueprints.<p></p><a href='https://wp.nyu.edu/tandonschoolofengineering-kristianz/week-7-infinite-loops/'>Blog about Infinite Loop</a><p></p>For my Virtual Production Development course, students were asked to create real-time show controls. My project controls the scene lighting and activates random, chaotic motion of a cube.<p></p><a href='https://wp.nyu.edu/tandonschoolofengineering-kristianz/week-11-show-control-and-osc/'>Blog about Show Controls and OSC</a>"
     },
     "videos": {
         "title": "Silly Videos",
