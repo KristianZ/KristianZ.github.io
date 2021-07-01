@@ -89,18 +89,23 @@
     backdrop-filter: blur(6px);
 }
 
+.hovereffect:hover .film {
+    background: rgba(70, 0, 70, 0.5);
+    backdrop-filter: blur(6px);
+}
+
+.hovereffect:hover .design {
+    background: rgba(20, 20, 140, 0.5);
+    backdrop-filter: blur(6px);
+}
+
 .hovereffect:hover .engineering {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(6px);
 }
 
 .hovereffect:hover .photography {
     background: rgba(70, 0, 0, 0.5);
-    backdrop-filter: blur(6px);
-}
-
-.hovereffect:hover .film {
-    background: rgba(70, 0, 70, 0.5);
     backdrop-filter: blur(6px);
 }
 
