@@ -40,7 +40,6 @@
 }
 
 .project {
-    position: relative;
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
