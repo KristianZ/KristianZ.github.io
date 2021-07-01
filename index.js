@@ -127,10 +127,12 @@ var projects_json = {
     }
 }
 
+var content = $("#content")
+
 $.each(projects_json, function(key, value) {
-    project = "#" + value['category'] + "-projects";
+    project = $("#" + value['category'] + "-projects")
     if(value['content'].startsWith("http")) {
-        $(project).append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
+        project.append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
             key +
             '.jpg"><div class="overlay ' +
             value['category'] +
@@ -144,7 +146,7 @@ $.each(projects_json, function(key, value) {
         )
     }
     else {
-        $(project).append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
+        project.append('<div class="col-auto p-0"><div class="hovereffect"><img class="img-responsive" src="./images/Thumbnails/' +
             key +
             '.jpg"><div class="overlay ' +
             value['category'] +
@@ -154,16 +156,17 @@ $.each(projects_json, function(key, value) {
             key +
             'Modal">' +
             value['link-text'] +
-            '</button><div id="' +
+            '</button></div></div></div>')
+        content.append('<div id="' +
             key + 
             'Modal" class="modal fade"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">' +
             value['title'] +
             '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div><div class="modal-body lead">' +
             value['content'] +
-            '</div><div class="modal-footer"></div></div></div></div></div></div></div>'
+            '</div><div class="modal-footer"></div></div></div></div>'
         )
     }
-});
+})
 
 /* Sample appended HTML
 
