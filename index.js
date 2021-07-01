@@ -47,6 +47,12 @@ var projects_json = {
         "link-text": "Open Album",
         "content": "https://photos.app.goo.gl/n3omEEZnCMAYJLNW8"
     },
+    "roadtrip": {
+        "title": "Chicago to California Roadtrip",
+        "category": "photography",
+        "link-text": "Open Album",
+        "content": "https://photos.app.goo.gl/seRWdfyJp71aqBXD7"
+    },
     "kentucky": {
         "title": "Kentucky Photography",
         "category": "photography",
