@@ -43,9 +43,9 @@
 	font-size: 17px;
 	padding: 10px;
 	background: rgba(0, 0, 0, 0.85);
-	-webkit-transform: translateY(75px);
-	-ms-transform: translateY(75px);
-	transform: translateY(75px);
+	-webkit-transform: translateY(65px);
+	-ms-transform: translateY(65px);
+	transform: translateY(65px);
 	-webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
 }
