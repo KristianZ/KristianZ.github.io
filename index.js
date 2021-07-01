@@ -6,7 +6,7 @@ var projects_json = {
         "content": "For version 2, <a href='https://wp.nyu.edu/tandonschoolofengineering-kristianz/week-15-project-2/'>click here</a>. For version 1, continue reading below.<p></p>Unlike driving a car, the arm movements bikers use to signal turns are not always immediately clear. For my midterm in my Wearables course, I set out to make the turning signals of bikers more attention-grabbing. I created a prototype of a wearable that detects arm gestures as inputs and uses LEDs on the back as signal indicators. When the biker outstretches their (left) arm, it signals a turn in that direction. If the biker raises their arm at ninety degrees, it signals the turn in the opposite direction. Holding the position enables the blinkers while any other position disables it.<p></p>For gesture detection, I use an Arduino Nano 33 BLE that was mounted to an armband on the forearm. Conveniently, the Arduino has an 9-axis IMU sensor of which I used acceleration and gyroscope values to detect (a) whether the arm was up and (b) whether the arm was signaling a left or right turn. The armband also houses a battery . Wires running through the arm connect the LEDs, which are sewn onto the inside of the longsleeve shirt. This project certainly challenged my sketching, soldering, and sewing skills.<p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/OQslF1Oaszg?rel=0' allowfullscreen></iframe></div><p></p>"
     },
     "rooftop": {
-        "title": "Rooftop Gardens - Short Film",
+        "title": "Rooftop Garden - Short Film",
         "category": "film",
         "link-text": "Watch Video",
         "content": "https://youtu.be/oWrKqLv8ASs"
@@ -18,13 +18,13 @@ var projects_json = {
         "content": "https://youtu.be/EA1-RYAI55c"
     },
     "character": {
-        "title": "Virtual Production - Character Introduction",
+        "title": "Introducing a Treasure Hunter",
         "category": "film",
         "link-text": "Watch Video",
         "content": "https://youtu.be/7ZwJYa21LyQ"
     },
     "mocap": {
-        "title": "Motion Capture- Imagining Motion",
+        "title": "Imagining Motion",
         "category": "film",
         "link-text": "Watch Video",
         "content": "https://youtu.be/AUmVbxDES04"
@@ -60,25 +60,25 @@ var projects_json = {
         "content": "<div class='row'><div class='col-md-4 embed-responsive embed-responsive-16by9'><video autoplay muted loop class='embed-responsive-item'><source src='./images/Boomerangs/Boomerang1.mp4' type='video/mp4'></video></div><div class='col-md-4 embed-responsive embed-responsive-16by9'><video autoplay muted loop class='embed-responsive-item'><source src='./images/Boomerangs/Boomerang2.mp4' type='video/mp4'></video></div><div class='col-md-4 embed-responsive embed-responsive-16by9'><video autoplay muted loop class='embed-responsive-item'><source src='./images/Boomerangs/Boomerang3.mov' type='video/mp4'></video></div></div>"
     },
     "rhit": {
-        "title": "Rose-Hulman Photography",
+        "title": "Rose-Hulman Institute of Technology Photography",
         "category": "photography",
         "link-text": "Open Album",
         "content": "https://photos.app.goo.gl/H53BkgSF8eYNT6Y16"
     },
     "capstone": {
-        "title": "Senior Capstone - Wearable Tech",
+        "title": "Wearable for Injury Prediction",
         "category": "engineering",
         "link-text": "Learn More",
         "content": "I completed my senior project as part of a Multidisciplinary Capstone class, which was with students from different majors. Two others and I created a system that recorded running mechanics so that the data could be used to predict running-related injuries. Focusing on the latter, we began by researching the minimal running factors that might lead to injury. We read near thirty research publications and interviewed another ten coaches, trainers, and biomechanics professors from Rose-Hulman Institute of Technology and Indiana State University. However, as one coach phrased it, \"We are in the dark ages for understanding how running and injury are connected.\" In reality, experts are able to effectively predict the cause of an injury yet cannot predict a cause before injury occurs. This is because while our bodies are structured very similarly, each one responds to movement quite differently. For instance, two runners with the same running style yet different strength legs may produce injury in different locations of the body when spraining their ankle. The problem becomes more complex when considering that components of our body are incredibly interconnected. One's lower back and even arms can alter how one's foot impacts the ground. These factors make it quite difficult for researchers to confidently predict correlation between running and injuries.<p></p>The difficulty for researchers to predict running injuries only emphasized the importance for a product that records running mechanics. The team believed machine learning could find correlation when supplied an abundance of running data. So, the team pivoted in search for important running mechanics to record. Comments from our previous research suggested the importance of hip, knee, and foot movement in addition to foot impact. However, because of the uncertainty of these suggestions, we intended to conduct our own human-subject research. We spent the better-half of two months completing IRB paperwork and planning experiments with runners on a force mat. However, prior to submitting our paperwork the COVID-19 pandemic hit the United States, separating students from their schools and our team from its resources. Paired with the institution's expectation that capstone projects develop prototypes, the team was force dto make design decisions on a final product.<p></p>Our final design consisted of a foot wearable that communicated with a smartphone. The foot wearable hosted a 6-axis motion sensor on the shoe lace for recording motion and an impact sensor as an insole. A tiny Arduino-based microcontroller united the peripherals and sent commands over BLE to a smartphone. The smartphone application was extensively implemented to operate like a standard running-recording app. It even stored the running data to a database. I was responsible for designing and developing the motion sensor, microcontroller, and smartphone application. Aside from the impact sensor, all aspects of the project were successful implemented."
     },
     "eml": {
-        "title": "Camera Background Blur",
+        "title": "Implementing Background Blur",
         "category": "engineering",
         "link-text": "Learn More",
         "content": "For my final project in Embedded Machine Learning, I designed and implemented a system that blurred the background of individuals in a picture. The direction of the blur was based on the direction of the person's head. The program first extracts potential head regions using thresholding. Then, it uses PCA to classify the potential regions as a head. These classified head regions are the foreground. Thresholding is used once more to obtain the centroid of the foreground and the head itself. From that, a blur direction is determined. MatLab was used to obtain training coefficients while an NVidia Jetson Nano running Python operated the final program. The training set consisted of forty images under different color lighting and different head angles."
     },
     "cvision": {
-        "title": "Virtual Key-press Detector",
+        "title": "Detecting Key-press from a Picture",
         "category": "engineering",
         "link-text": "Learn More",
         "content": "For my final project in Computer Vision, a partner and I designed and implemented a MatLab program that identifies a key press from an image. Using thresholding, a finger was extracted from the image. The hand's centroid and orientation were used to determine the point at the tip of the finger. Then, the keyboard was extracted using thresholding, morphologies, and a convex hull. Using points at the edge of the keyboard, an affine transformation was applied to the image and finger point. Finally, the ratio of the location of the transformed point to that of the keyboard was compared to a pre-defined grid to obtain the key being pressed."
@@ -108,7 +108,7 @@ var projects_json = {
         "content": "I spend a lot of time practicing the sport of Track and Field. While I'm a sprinter and pole vaulter first, I've completed the heptathlon once, and I'm currently training for the decathlon. My Track and Field experiences have led me to appreciate its many physical feats and love the sport so much more.I've never had an opportunity to share my track accomplishments, but I'm really proud of them and wish to share them somewhere.<p></p><strong>Rose-Hulman</strong> - Conference champion in the 200m, 4x200m, and 4x400m. Conference runner-up in the 400m and 4x200m. Conference scorer in the pole vault (5 times), the 4x400m relay, and the 400m hurdles.<p></p><strong>High School</strong> - State qualifier in the 4x200m and 4x100m relays. Conference scorer in the pole vault, 55m dash, 4x100m, and 4x200m."
     },
     "abroad": {
-        "title": "Studying in Rome, Italy",
+        "title": "Study Abroad in Rome, Italy",
         "category": "extracurricular",
         "link-text": "Learn More",
         "content": "One of the best and most adventerous 5 weeks of my life were in Italy. In the summer of 2018, I chose to take a sociology course and a podcasting and vidcasting course in Rome, Italy. Every week, my sociology course would explore neighborhoods of Rome and discuss their history, culture, and identity. My podcasting and vidcasting course would create one or two podcasts and vidcasts every week on how to live in Rome.<p></p>On weekends, my friends and I would have fun exploring the country. I visited the Vatican several times, travelled to Ostia, Venice, Florence, Cinque Terre, Naples, Pompei, Sorrento, and Capri. I even had the opportunity to see a Killers concert! I've never had a better opportunity to connect with new people and explore a historically and culturally rich country.<p></p><a href=' https://soundcloud.com/user-730028885/sets/the-when-in-rome-show-summer'>When in Rome Show Podcast</a><p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/wutJ40P0o50' allowfullscreen></iframe></div>"
