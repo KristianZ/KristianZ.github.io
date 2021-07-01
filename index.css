@@ -23,19 +23,30 @@
     color: white;
 }
 
+@media (max-width: 767px) {
+    .scrollable {
+        overflow-x: auto;
+    }
+}
+
+@media (min-width: 767px) {
+    .scrollable {
+        overflow-x: hidden;
+    }
+
+    .scrollable:hover {
+        overflow-x: auto;
+    }
+}
+
 .project {
     position: relative;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: hidden;
     justify-content: left;
     height: 245px;
     margin-bottom: 10px;
     padding-left: 110px;
-}
-
-.project:hover {
-    overflow-x: auto;
 }
 
 .key {
