@@ -31,7 +31,7 @@
     justify-content: left;
     height: 245px;
     margin-bottom: 10px;
-    padding-left: 100px;
+    padding-left: 110px;
 }
 
 .project:hover {
@@ -70,32 +70,40 @@
 
 .key.design {
     background: rgba(20, 20, 140, 0.85);
+    backdrop-filter: blur(6px);
 }
 
 .key.engineering {
     background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
 }
 
 .key.photography {
     background: rgba(70, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
 }
 
 .key.extracurricular {
     background: rgba(70, 70, 70, 0.85);
+    backdrop-filter: blur(6px);
 }
 
 .hovereffect:hover .engineering {
     background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
 }
 
 .hovereffect:hover .photography {
     background: rgba(70, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
 }
 
 .hovereffect:hover .film {
     background: rgba(70, 0, 70, 0.5);
+    backdrop-filter: blur(6px);
 }
 
 .hovereffect:hover .extracurricular {
     background: rgba(70, 70, 70, 0.75);
+    backdrop-filter: blur(6px);
 }
