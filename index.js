@@ -1,4 +1,10 @@
 var projects_json = {
+    "apartment": {
+        "title": "Recreating an Apartment Virtually",
+        "category": "design",
+        "link-text": "Learn More",
+        "content": "When my girlfriend moved into her new apartment, she had trouble deciding what furniture to buy. Prior to any purchasing, she wanted to see the furniture placed within her apartment and create an arragment she liked. To help her with that process, I recreated my girlfriend's apartment virtually. The virtual model is not perfectly to scale, however it is very close. Creating furniture, updating placements, and rendering took around 5 minutes for every pass.<p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/FREqB_XW8bo?rel=0' allowfullscreen></iframe></div>"
+    },
     "emessage": {
         "title": "eMessage - Messaging backed by Emotion",
         "category": "design",
