@@ -3,7 +3,7 @@ var projects_json = {
         "title": "WIP - AR on Command",
         "category": "ar",
         "link-text": "Watch Video",
-        "content": "https://youtu.be/Ei-bhYOECAw"
+        "content": "https://youtu.be/ZG1zeI05U6o"
     },
     "thriller": {
         "title": "\"Thriller\" with Facial Expressions",
