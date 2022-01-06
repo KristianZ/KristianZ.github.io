@@ -46,7 +46,7 @@
     justify-content: left;
     height: 200px;
     margin-bottom: 20px;
-    padding-left: 100px;
+    padding-left: 85px;
 }
 
 .key {
@@ -54,9 +54,8 @@
     z-index: 5;
     top: -10px;
     left: 0px;
-    width: 90px;
+    width: 70px;
     height: 205px;
-    margin-left: 15px;
 
     writing-mode: vertical-rl;
     -webkit-transform: rotate(180deg);
@@ -64,7 +63,7 @@
     transform: rotate(180deg);
     text-transform: uppercase;
     text-align: center;
-    line-height: 110px;
+    line-height: 80px;
     font-size: 18px;
     letter-spacing: 2px;
     word-spacing: 10px;
