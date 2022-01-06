@@ -1,9 +1,9 @@
 var projects_json = {
     "ar_command": {
-        "title": "WIP - AR on Command",
+        "title": "AR on Command",
         "category": "ar",
-        "link-text": "Watch Video",
-        "content": "https://youtu.be/ZG1zeI05U6o"
+        "link-text": "Learn More",
+        "content": "Maintaining seamlessness and tight interaction is a notable challenge for augmented reality applications. For instance, a 2D screen is a common command portal for engaging with AR. In October of 2021, I imagined users pointing in the physical world and spawning virtual elements that come to mind. By introducing a more active interaction, I hoped to close the gap between physical and virtual spaces. A month later, I implemented that concept using Snapchat’s LensStudio and supplementary tools such as Maya and the Adobe Suite.<p></p><p style='text-align: center;'><a href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=b7a6a95b3878443cadef4c9fda53276f&metadata=01' style='text-align: center;'>Click here to try out AR on Command on Snapchat!</a></p><p></p><p style='text-align: center;'><a href='https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=92eabc8e8b4245eb8611d25545dfc055&metadata=01'>Click here to try out Christmas Creator on Snapchat!</a></p><p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/ejKwzBgMtv0?rel=0' allowfullscreen></iframe></div><p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/NT_h7-EY6IM?rel=0' allowfullscreen></iframe></div><p></p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/rKxZb7K0-5g?rel=0' allowfullscreen></iframe></div>"
     },
     "thriller": {
         "title": "\"Thriller\" with Facial Expressions",
