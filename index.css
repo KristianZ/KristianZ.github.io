@@ -1,3 +1,7 @@
+.container-fluid {
+    overflow-x: hidden;
+}
+
 .navbar {
     color: white;
     background: rgba(70, 0, 0, 0.85);
@@ -46,14 +50,14 @@
     justify-content: left;
     height: 200px;
     margin-bottom: 20px;
-    padding-left: 85px;
+    padding-left: 75px;
 }
 
 .key {
     position: absolute;
     z-index: 5;
     top: -10px;
-    left: 0px;
+    left: -10px;
     width: 70px;
     height: 205px;
 
