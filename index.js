@@ -1,4 +1,10 @@
 var projects_json = {
+    "thesis": {
+        "title": "WIP - Master's Thesis",
+        "category": "ar",
+        "link-text": "Learn More",
+        "content": "While there’s no doubt that companies are facilitating, if not encouraging, immersive experience creation, arguably little has been done to formalize a path for expressing emotions in augmented reality. Consider the emotions of an in-person, face-to-face conversation with another peer. Each interlocutor expresses nonverbal cues through channels such as facial expressions, gestures, movement, and posture. This frames the content and emotions of the conversation, clarifying the intent of the information.<p></p>In digital, computer-mediated communication such as instant-messaging, users initially resorted to expressing nonverbal cues through emoticons. Eventually, emojis were introduced as a means to more succinctly convey complex nonverbal information, and finally the adoption of GIFs provided an opportunity for conveying embodied actions. Evidently, over the last several decades, digital mediums aimed to emulate the nonverbal cues of in-person communication, viewing it as the standard to reach.<p></p>Augmented reality can go beyond the standard of in-person communication, particularly in the expression of nonverbal cues, and introduce new elements to enrich conversations. Potentially for the first-time in the history of humanity, society can add nonverbal cues that go beyond the level of information conveyed in-person. So, companies must emphasize correctly augmenting emotion. In order to help companies correctly dedicate limited resources to furthering the potential expressive aspects of augmented reality, <b>I am studying the facial expressions of entertaining, narrative communication through mobile augmented reality to understand how virtual elements can provide additional expressive opportunities in peer-to-peer contact.</b>"
+    },
     "ar_command": {
         "title": "AR on Command",
         "category": "ar",
