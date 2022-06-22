@@ -1,4 +1,10 @@
 var projects_json = {
+    "ar_map": {
+        "title": "Real-time Map",
+        "category": "ar",
+        "link-text": "Learn More",
+        "content": "<p style='text-align: center'><iframe src='https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6940444908281360385?compact=1' height='284' width='504' frameborder='0' allowfullscreen='' title='Embedded post'></iframe></p><p>I bought a new phone, one that finally has a LiDAR scanner, and I wanted to create a quick AR project that uses it. I knew that Snapchat's Lens Studio allowed creators to take advantage of world meshes, and the quality of those meshes improved for phones that have LiDAR sensors. World meshes are 3D scans of the surrounding world, such as 3D model of the interor of one's home. Much like the aerial view on GPS devices when driving and walking, I set out to create an aerial view of interior spaces such as in a home.</p><p>The video above depicts the result. At the bottom-half of the screen is a head model surrounded by a scaled down version of the world mesh provided by Snap. As the user moves through their space, I apply the camera's translation and rotation to the head model. I also apply adjustments of my own to accurately depict the user's location and orientation accurately relative to the sacle and angle of the model. Finally, I modify the material shader so that objects physically higher for the user are shaded more lightly, improving the apperance of depth on the map.</p><p>I envision this could be used in grocery stores or virtual home tours to help better give a sense of space, direction, and guidance. I think pre-made scans of spaces alongside real-time scans can create a powerful, adaptable form of navigation. As a friend noted, this means it can also be applicable in emergency situations. A first responder might have an architectural layout for a home, but the specifics of the interor can be clarified as responders pace an interor or even by the emergency victim themselves.</p>"
+    },
     "thesis": {
         "title": "WIP - Master's Thesis",
         "category": "ar",
